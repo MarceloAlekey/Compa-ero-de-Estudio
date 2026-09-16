@@ -1,0 +1,9 @@
+{
+  "name": "frontend",
+  "version": "1.0.0",
+  "description": "Frontend para SysLab 2.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  }
+}
