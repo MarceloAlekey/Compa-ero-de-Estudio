@@ -1,0 +1,9 @@
+{
+  "skill": "taste-skill-core",
+  "provider": "TasteSkill",
+  "version": "1.2.0",
+  "capabilities": [
+    "prompt-validation",
+    "context-window-optimization"
+  ]
+}

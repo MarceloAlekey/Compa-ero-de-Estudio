@@ -1,0 +1,9 @@
+{
+  "skill": "syslab-backend-persistencia",
+  "architecture": "SysLab 2.0",
+  "version": "2.0.0",
+  "capabilities": [
+    "prisma-model-verification",
+    "postgresql-schema-sync"
+  ]
+}
