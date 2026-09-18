@@ -30,3 +30,28 @@ docker compose ps
 docker compose exec backend npx prisma migrate dev --name init
 docker compose exec backend node prisma/seed.js
 ```
+
+## 📁 4. Estructura del Repositorio
+
+```
+.
+├── agente/                 # Skills e instrucciones del agente de IA
+│   ├── skills/             # Skills de TasteSkill y custom SysLab 2.0
+│   └── rules.md            # Reglas de comportamiento del agente
+├── backend/
+│   ├── prisma/
+│   │   ├── migrations/     # Migraciones generadas por Prisma
+│   │   ├── schema.prisma   # Modelo de datos (Usuario, Materia, Tema, Examen)
+│   │   └── seed.js         # Script de datos iniciales
+│   ├── .env
+│   ├── Dockerfile
+│   ├── index.js
+│   └── package.json
+├── frontend/
+│   ├── .env
+│   ├── Dockerfile
+│   ├── index.js
+│   └── package.json
+├── docker-compose.yml      # Orquestación (Frontend, Backend, DB)
+└── README.md
+```
